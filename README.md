@@ -15,7 +15,7 @@ evaluated using ensemble-inspired statistics derived from multiple independent o
 ## Repository Contents
 
 ### Main Program
-- **sp_pso_optimization.m**  
+- **sp_pso_thin_sheet.m**  
   Executes the complete inversion workflow, including data loading, multi-run PSO
   optimization, convergence analysis, ensemble statistics, and visualization.
 
@@ -48,4 +48,4 @@ evaluated using ensemble-inspired statistics derived from multiple independent o
 
 1. Place all `.m` files and `Model_eta.dat` in the same directory.
 2. Open MATLAB and set the working directory to this folder.
-3. Run the main script:   'sp_pso_optimization.m'
+3. Run the main script:   'sp_pso_thin_sheet.m'
