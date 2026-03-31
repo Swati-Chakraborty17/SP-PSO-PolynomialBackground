@@ -29,10 +29,8 @@ evaluated using ensemble-inspired statistics derived from multiple independent o
   Forward model for the self-potential anomaly of a dipping thin sheet, including
   a quadratic regional background term of the form:
   
-  \[
-  V_{bg}(x) = c + b x + i x^2
-  \]
-
+   V_{bg}(x) = c + b x + i x^2
+ 
 - **objective_function.m**  
   Objective (misfit) function based on percentage RMS error, incorporating a soft
   boundary penalty to discourage boundary-hugging solutions while maintaining
@@ -50,6 +48,4 @@ evaluated using ensemble-inspired statistics derived from multiple independent o
 
 1. Place all `.m` files and `Model_eta.dat` in the same directory.
 2. Open MATLAB and set the working directory to this folder.
-3. Run the main script:
-   ```matlab
-   sp_pso_optimization
+3. Run the main script:   'sp_pso_optimization.m'
